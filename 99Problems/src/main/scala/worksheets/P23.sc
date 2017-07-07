@@ -1,9 +1,7 @@
-import problems.P20._
+import problems.P23
 
-import scala.util.Random
+val list = List(0, 1, 2, 3, 4, 5, 6, 7, 8)
 
-val list = List(0,1,2,3)
+P23.randomSelect(9, list)
 
-val randIndex = Random.nextInt(list.size)
 
-val removedPair:(List[Int],Int) = removeAt(randIndex,list)
