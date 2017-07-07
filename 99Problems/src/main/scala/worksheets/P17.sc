@@ -1,4 +1,4 @@
-import P17.split
+import problems.P17.split
 
 val l = List(1,2,3,4,5,6,7,8)
 
